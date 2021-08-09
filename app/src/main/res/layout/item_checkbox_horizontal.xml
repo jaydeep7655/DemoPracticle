@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="modelCheckBox"
+            type="com.example.demopracticle.model.ModelCheckBox" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cbItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="@={modelCheckBox.value}"/>
+    </LinearLayout>
+
+</layout>

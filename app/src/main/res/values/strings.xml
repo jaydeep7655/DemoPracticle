@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DemoPracticle</string>
+
+    <string name="setting">Setting</string>
+    <string name="log">Log</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="submit">submit</string>
+</resources>
